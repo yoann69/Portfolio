@@ -1,0 +1,42 @@
+.description {
+// background-color: grey;
+display: table;
+width: 400px;
+padding: 10px;
+text-align: left
+}
+
+.description h1 {
+  display: inline-block;
+  margin: 0;
+  word-wrap: break-word;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 50px;
+}
+
+.description p {
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.description h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  color: #0077b6;
+
+}
+
+.description a i {
+  color: #0077b6;
+  margin: 4px;
+  transition: transform 0.3s;
+  font-size: 16px;
+}
+
+.description a i:hover {
+  transform: scale(1.1);
+}
+
+span {
+  color: #0077b6;
+}

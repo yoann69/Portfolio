@@ -1,0 +1,32 @@
+.photo-profil{
+  // background-color: red;
+  display: table;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  // border: solid white 1px;
+}
+
+// .photo h1 {
+//   display: inline-block;
+//   margin: 0;
+//   word-wrap: break-word;
+// }
+
+.photo-profil img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-lion {
+  display: table;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+.photo-lion img {
+  width: 100%;
+  height: auto;
+}

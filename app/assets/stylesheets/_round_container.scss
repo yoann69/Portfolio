@@ -1,0 +1,116 @@
+.round-container {
+  border: solid 1px red;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-container h2 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.round-container h4 {
+  text-align: center;
+}
+
+.round-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0077b6;
+  top: 0;
+}
+
+.round-2 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+}
+
+.round-3 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 250px;
+  left:800px;
+}
+
+
+.round-4 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 400px;
+  left:700px;
+}
+
+.round-5 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 350px;
+  left:650px;
+}
+
+.round-6 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 150px;
+  left:800px;
+}
+
+.round-7 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 400px;
+  left:300px;
+}
+
+.round-8 {
+  border-radius: 50%;
+  background-color: #0077b6;
+  width: 60px;
+  height: 60px;
+  // position: absolute;
+  top: 500px;
+  left:600px;
+}
+
+.round-1,
+.round-2,
+.round-4,
+.round-5,
+.round-6,
+.round-8 {
+ transition: transform 0.2s ease-in-out;
+}
+
+.round-1:hover,
+.round-2:hover,
+.round-4:hover,
+.round-5:hover,
+.round-6:hover,
+.round-8:hover {
+  transform: scale(1.5);
+}
+
+
+
+
+/* Ajoutez des styles similaires pour les autres classes des ronds en ajustant les valeurs de grid-row et grid-column */

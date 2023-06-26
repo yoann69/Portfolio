@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  // display: flex;
+}
+
+.container {
+  width: 100%;
+  // margin: 8px;
+  height: 700px;
+  // background-color: rgb(26, 26, 26);
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-technos {
+  background: linear-gradient(to right, transparent,  #0077b6,  transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border-bottom: solid 1px #0077b6;
+  // border-top: solid 1px #0077b6;
+}
+
+
+.container-technos img {
+  color: black;
+  font-size: 40px;
+  margin: 24px;
+  transition: transform 0.3s;
+}
+
+.container-technos img:hover {
+  transform: scale(1.1); /* Grossit l'icône de 10% */
+}
+
+.container-technos img {
+  width: 32px;
+  height: 32px;
+}
+
+.container3 {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D&w=1000&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container3 h2 {
+justify-content: center;
+align-items: center;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
